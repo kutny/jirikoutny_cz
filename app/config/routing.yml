@@ -1,0 +1,5 @@
+kutny_front:
+    resource: "@KutnyFrontBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

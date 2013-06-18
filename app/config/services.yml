@@ -1,0 +1,4 @@
+services:
+
+  controller.symfony_training_controller:
+    class: Kutny\FrontBundle\Controller\SymfonyTrainingController
