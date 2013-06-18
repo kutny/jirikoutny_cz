@@ -6,15 +6,15 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 
 /**
- * @Route(service = "controller.symfony_training_controller")
+ * @Route(service = "controller.homepage_controller")
  */
-class SymfonyTrainingController
+class HomepageController
 {
     /**
-     * @Route("/skoleni-symfony", name="route.symfony_training")
+     * @Route("/", name="route.homepage")
      * @Template()
      */
-    public function symfonyTrainingAction()
+    public function homepageAction()
     {
         return array();
     }
