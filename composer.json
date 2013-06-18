@@ -21,7 +21,8 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "kutny/autowiring-bundle": "dev-master",
         "kutny/tracy-bundle": "0.1",
-        "tracy/tracy": "@dev"
+        "tracy/tracy": "@dev",
+        "knplabs/knp-menu-bundle": "1.1.x"
     },
     "scripts": {
         "post-install-cmd": [
