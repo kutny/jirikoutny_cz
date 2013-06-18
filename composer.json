@@ -4,7 +4,8 @@
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
-        "psr-0": { "": "src/" }
+        "files": ["libs/KutnyLib/functions.php"],
+        "psr-0": { "": "src/", "KutnyLib": ["libs/"] }
     },
     "require": {
         "php": ">=5.3.3",

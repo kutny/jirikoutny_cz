@@ -1,5 +1,11 @@
 services:
 
+  assets.asset_url_extension:
+    class: KutnyLib\Assets\AssetUrlExtension
+    arguments: [%asset_version%]
+    tags:
+      - { name: twig.extension }
+
   controller.homepage_controller:
     class: Kutny\FrontBundle\Controller\HomepageController
 
