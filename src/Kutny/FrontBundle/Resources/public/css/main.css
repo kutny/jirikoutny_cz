@@ -7,6 +7,15 @@ body {
 
 body, a, p, li {
     font-size: 14px;
+    line-height: 22px;
+}
+
+a {
+    color: #3C6CAC;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 .centered-content {
@@ -33,19 +42,8 @@ body, a, p, li {
     padding: 10px 0;
 }
 
-h1 {
-    color: #ffffff;
-    font-size: 28px;
-    line-height: 1em;
-    margin: 0;
-}
-
 h2 {
     font-size: 18px;
-}
-
-li {
-    padding-bottom: 7px;
 }
 
 menu {
@@ -82,4 +80,12 @@ ul.menu > li > a:hover {
 
 .clear {
     clear: both;
+}
+
+.floated-box {
+    float: left;
+}
+
+.floated-box.my-basic-details {
+    margin-left: 10px;
 }
