@@ -1,6 +1,59 @@
 {% extends 'KutnyFrontBundle::layout.html.twig' %}
 
-{% block title %}Školení Symfony2{% endblock %}
+{% block title %}Školení Symfony 2 frameworku{% endblock %}
 {% block content %}
-Hello Jiří!
+
+<h2>Co se na školení naučíte?</h2>
+
+<p>Vytvářet v Symfony2 aplikace rychle, rozšiřitelně a s minimálním počtem chyb při využití:</p>
+
+<ul>
+    <li><strong>Dependency Injection</strong>,</li>
+    <li>testovacích frameworků <a href="http://phpunit.de/manual/current/en/index.html">PHPUnit</a> a <a href="http://docs.seleniumhq.org/">Selenium</a>,</li>
+    <li>nástrojů pro kontinuální integraci (Continuous Integration) - <a href="http://jenkins-ci.org/">Jenkins</a>,</li>
+    <li>pokročilých funkcí a rozšíření vývojových prostředí (IDE) - <a href="http://www.jetbrains.com/phpstorm/">PHPStorm</a>, <a href="https://netbeans.org/">NetBeans</a>,</li>
+    <li><strong>průběžného nasazování nových verzí</strong> (Continous Deployment) - např. s využitím <a href="http://capifony.org/">Capifony</a>,</li>
+    <li>statických analyzátorů kódu - PHP CodeSniffer, PHP Mass Detector.</li>
+</ul>
+
+<h2>Pro koho je školení určeno?</h2>
+
+<p>Zkuste si odpovědět na následující otázky:</p>
+
+<ul>
+    <li>Obsahují vaše aplikace <strong>velké množství chyb</strong>, které se často opravujete až na produkční prostředí?</li>
+    <li>Musíte kvůli každé malé úpravě zadání přepisovat velké množství kódu?</li>
+    <li>Píše u vás ve firmě každý vývojář kód jinak bez jasně stanovených standardů?</li>
+    <li>Po každém nasazení nové verze aplikace musíte dlouho do noci <strong>opravovat nově vzniklé chyby</strong>?</li>
+    <li>Přestává vás programování bavit? Hledáte, <strong>kam se dál posunout</strong>?</li>
+</ul>
+
+<h2>Mám na to?</h2>
+
+<p>
+    Pro účast na školení <strong>nemusíte Symfony2 umět používat</strong>.
+    Rozhodně ale doporučuji si před školením rozjet nějakou testovací aplikaci a projít úvodní kapitoly <a href="http://symfony.com/doc/current/index.html">dokumentace</a>.
+    Pomůže vám to <strong>odnést si ze školení maximum</strong>.
+</p>
+
+<h3>Kdo vás bude školit?</h3>
+<div class="floated-box">
+    <img src="/bundles/kutnyfront/images/jirka.jpg" alt="" width="130" height="153">
+</div>
+<div class="floated-box my-basic-details">
+    <strong>Jiří Koutný</strong><br>
+    projekty, na kterých se podílím: <a href="http://www.collabim.cz/">Collabim</a>, <a href="http://www.bonami.cz/">Bonami.cz</a><br>
+    <a href="mailto:jirkakoutny@gmail.com">jirkakoutny@gmail.com</a><br>
+    tel. 603 102 257<br>
+    <a href="{{ path('route.homepage') }}">další info o lektorovi</a>
+</div>
+<div class="clear"></div>
+
+<h2>Přihlašte se na školení Symfony2</h2>
+
+<p>Školení má zatím otevřený termín v <strong>říjnu 2013</strong>. Přihlašte se <strong>nezávazně</strong> vyplněním formuláře níže.</p>
+<div class="iframe-wrapper">
+    <iframe src="https://docs.google.com/forms/d/1PXRxusuTobzHgzXmS5G2tftNq-jOwINTZOVn-dYrIdM/viewform?embedded=true" width="760" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</div>
+
 {% endblock %}
